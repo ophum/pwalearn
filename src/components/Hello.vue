@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <p><a href="/#/world"><button class="button">world</button></a>
     <h2>Essential Links</h2>
     <ul>
       <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
@@ -48,5 +49,9 @@ li {
 
 a {
   color: #35495E;
+}
+
+.button {
+  font-size: 24em;
 }
 </style>
